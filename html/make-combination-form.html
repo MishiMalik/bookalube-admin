@@ -93,12 +93,12 @@
                   <div data-i18n="Text Divider">Year</div>
                 </a>
               </li>
-              <li class="menu-item ">
+              <li class="menu-item">
                 <a href="services.html" class="menu-link">
                   <div data-i18n="Text Divider">Services</div>
                 </a>
               </li>
-              <li class="menu-item active">
+              <li class="menu-item">
                 <a href="engine-oil.html" class="menu-link">
                   <div data-i18n="Text Divider">Engine oil </div>
                 </a>
@@ -142,12 +142,12 @@
                 </a>
               </li>
               
-              <li class="menu-item">
+              <li class="menu-item  ">
                 <a href="year-combination.html" class="menu-link">
                   <div data-i18n="Text Divider">Year Combination</div>
                 </a>
               </li>
-              <li class="menu-item">
+              <li class="menu-item active">
                 <a href="make-combination.html" class="menu-link">
                   <div data-i18n="Text Divider">Make Combination</div>
                 </a>
@@ -157,6 +157,8 @@
                   <div data-i18n="Text Divider">Model Combination</div>
                 </a>
               </li>
+
+
             </ul>
           </li>
 
@@ -269,150 +271,44 @@
             <h4 class="pt-3 pb-2">Registration</h4>
             <!-- Striped Rows -->
             <div class="card">
-              <h5 class="card-header">Engine oil</h5>
+              <h5 class="card-header">Make Combination Form</h5>
               <div class="card-body">
                 <form>
-                  <div class="mb-3">
-                    <label class="form-label" for="basic-default-fullname">Name</label>
-                    <input type="text" class="form-control" id="basic-default-fullname"
-                      placeholder="Enter Engine oil Name" />
+                   
+                    <div class="mb-3">
+                        <label for="" class="form-label">Make</label>
+                        <select
+                            class="form-select form-select " name=""   id="">
+                            <option selected>Select Make</option>
+                            <option value="">Make 2</option>
+                            <option value="">Make 2</option>
+                            <option value="">Make 3</option>
+                        </select>
+                      </div>
+                      <div class="mb-3 make-div">
+                        <div class="d-flex justify-content-between">
+                         <label for="" class="form-label">Model</label>
+                      
+                        </div>
+                         <select
+                             class="form-select form-select " name=""   id="">
+                             <option selected>Select Model</option>
+                             <option value="">Model 2</option>
+                             <option value="">Model 2</option>
+                             <option value="">Model 3</option>
+                         </select>
+                       </div>
+                  <div class="add-more-make">
+
                   </div>
-                  <div class="mb-3">
-                    <label class="form-label" for="price">Price</label>
-                    <input type="text" class="form-control" id="price"
-                      placeholder="Enter Engine oil Price" />
-                  </div>
-                  <div class="d-flex justify-content-end">
-                    <button type="submit" class="btn btn-primary">Add Engine oil</button>
-                  </div>
+                       <div class="d-flex align-items-center justify-content-end mt-4">
+                        <button type="button" class="btn btn-outline-primary me-2 add-more-make-btn" style="font-weight: 500;">Add More Make</button>
+                        <button type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop"
+                        class="btn btn-primary">Save</button>
+                    </div>
                 </form>
               </div>
             </div>
-
-
-            <hr class="my-5" />
-
-            <!-- Striped Rows -->
-            <div class="card px-4 pb-4">
-              <h5 class="card-header px-0">Engine oil Listing</h5>
-              <div class=" datatable-responsive">
-                <table id="example" class="display" style="width:100%">
-                  <thead>
-                    <tr>
-                      <th>#</th>
-                      <th>Name</th>
-                      <th>Price</th>
-                      <th>Actions</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <td>1</td>
-                      <td>ALI RAZA GRAVITY</td>
-                      <td>$665</td>
-                      <td>
-                        <div class="d-flex align-items-center">
-                          <button type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop"
-                            class="edit-data">Edit</button>
-                          <button class="delete-data">Delete</button>
-                        </div>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>2</td>
-                      <td>ALPHA COLLEGE</td>
-                      <td>$665</td>
-                      <td>
-                        <div class="d-flex align-items-center">
-                          <button type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop"
-                            class="edit-data">Edit</button>
-                          <button class="delete-data">Delete</button>
-                        </div>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>3</td>
-                      <td>ERN</td>
-                      <td>$665</td>
-                      <td>
-                        <div class="d-flex align-items-center">
-                          <button type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop"
-                            class="edit-data">Edit</button>
-                          <button class="delete-data">Delete</button>
-                        </div>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>4</td>
-                      <td>ICC</td>
-                      <td>$665</td>
-                      <td>
-                        <div class="d-flex align-items-center">
-                          <button type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop"
-                            class="edit-data">Edit</button>
-                          <button class="delete-data">Delete</button>
-                        </div>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>5</td>
-                      <td>INDEX</td>
-                      <td>$665</td>
-                      <td>
-                        <div class="d-flex align-items-center">
-                          <button type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop"
-                            class="edit-data">Edit</button>
-                          <button class="delete-data">Delete</button>
-                        </div>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>6</td>
-                      <td>KASHAN IQBAL</td>
-                      <td>$665</td>
-                      <td>
-                        <div class="d-flex align-items-center">
-                          <button type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop"
-                            class="edit-data">Edit</button>
-                          <button class="delete-data">Delete</button>
-                        </div>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>7</td>
-                      <td>OMER ALTAF</td>
-                      <td>$665</td>
-                      <td>
-                        <div class="d-flex align-items-center">
-                          <button type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop"
-                            class="edit-data">Edit</button>
-                          <button class="delete-data">Delete</button>
-                        </div>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>8</td>
-                      <td>RANA</td>
-                      <td>$665</td>
-                      <td>
-                        <div class="d-flex align-items-center">
-                          <button type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop"
-                            class="edit-data">Edit</button>
-                          <button class="delete-data">Delete</button>
-                        </div>
-                      </td>
-                    </tr>
-
-
-
-                  </tbody>
-
-                </table>
-              </div>
-            </div>
-            <!--/ Striped Rows -->
-
-
 
             <!-- Footer -->
             <footer class="content-footer footer bg-footer-theme">
@@ -440,38 +336,27 @@
       <!-- Overlay -->
       <div class="layout-overlay layout-menu-toggle"></div>
     </div>
-    <!-- / Layout wrapper -->
-    <!-- Modal -->
-    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
-      aria-labelledby="staticBackdropLabel" aria-hidden="true">
-      <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="staticBackdropLabel">Edit Engine oil </h5>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
-          <form action="">
-            <div class="modal-body">
-              <div class="mb-3">
-                <label class="form-label" for="basic-default-fullname">Name</label>
-                <input type="text" class="form-control" id="basic-default-fullname" placeholder="Edit Engine oil Name"
-                  value="" />
-              </div>
-              <div class="mb-3">
-                <label class="form-label" for="edit-price">Price</label>
-                <input type="text" class="form-control" id="edit-price" placeholder="Edit Engine oil Price"
-                  value="" />
-              </div>
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-              <button type="button" class="btn btn-primary">Save</button>
-            </div>
-          </form>
+     <!-- make template -->
+   <script type="text/template" id="form_template">
+    <div class="mb-3 make-div">
+        <div class="d-flex justify-content-between">
+         <label for="" class="form-label">Model</label>
+         <button class=" p-0 border-0 delete-make" style="margin-top: -7px; background-color: transparent;">
+             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red" class="bi bi-trash3-fill" viewBox="0 0 16 16">
+                 <path d="M11 1.5v1h3.5a.5.5 0 0 1 0 1h-.538l-.853 10.66A2 2 0 0 1 11.115 16h-6.23a2 2 0 0 1-1.994-1.84L2.038 3.5H1.5a.5.5 0 0 1 0-1H5v-1A1.5 1.5 0 0 1 6.5 0h3A1.5 1.5 0 0 1 11 1.5m-5 0v1h4v-1a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5M4.5 5.029l.5 8.5a.5.5 0 1 0 .998-.06l-.5-8.5a.5.5 0 1 0-.998.06Zm6.53-.528a.5.5 0 0 0-.528.47l-.5 8.5a.5.5 0 0 0 .998.058l.5-8.5a.5.5 0 0 0-.47-.528ZM8 4.5a.5.5 0 0 0-.5.5v8.5a.5.5 0 0 0 1 0V5a.5.5 0 0 0-.5-.5"/>
+               </svg>
+         </button>
         </div>
-      </div>
-    </div>
-
+         <select
+             class="form-select form-select " name=""   id="">
+             <option selected>Select Model</option>
+             <option value="">Model 2</option>
+             <option value="">Model 2</option>
+             <option value="">Model 3</option>
+         </select>
+       </div>
+</script>
+  
 
     <!-- Core JS -->
     <!-- build:js assets/vendor/js/core.js -->
@@ -495,15 +380,23 @@
     <script async defer src="https://buttons.github.io/buttons.js"></script>
 
     <script src="https://cdn.datatables.net/1.13.7/js/jquery.dataTables.min.js"></script>
+    
     <script>
-      // new DataTable('#example');
-      $(document).ready(function () {
-        $('#example').DataTable({
-          "paging": false,
-          "info": false
+        // jQuery document ready function
+        $(document).ready(function () {
+            // Add click event handler to add-more-make-btn button
+            $('.add-more-make-btn').on('click', function () {
+                // Clone the template and append it to the add-more-make div
+                var templateClone = $('#form_template').html();
+                $('.add-more-make').append(templateClone);
+            });
+    
+            // Add click event handler to delete-make button inside the add-more-make div
+            $(document).on('click', '.delete-make', function () {
+                // Remove the closest make-div
+                $(this).closest('.make-div').remove();
+            });
         });
-
-      });
     </script>
 </body>
 

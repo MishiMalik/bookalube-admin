@@ -93,12 +93,12 @@
                   <div data-i18n="Text Divider">Year</div>
                 </a>
               </li>
-              <li class="menu-item ">
+              <li class="menu-item">
                 <a href="services.html" class="menu-link">
                   <div data-i18n="Text Divider">Services</div>
                 </a>
               </li>
-              <li class="menu-item active">
+              <li class="menu-item">
                 <a href="engine-oil.html" class="menu-link">
                   <div data-i18n="Text Divider">Engine oil </div>
                 </a>
@@ -142,7 +142,7 @@
                 </a>
               </li>
               
-              <li class="menu-item">
+              <li class="menu-item  active">
                 <a href="year-combination.html" class="menu-link">
                   <div data-i18n="Text Divider">Year Combination</div>
                 </a>
@@ -157,6 +157,8 @@
                   <div data-i18n="Text Divider">Model Combination</div>
                 </a>
               </li>
+
+
             </ul>
           </li>
 
@@ -268,48 +270,46 @@
           <div class="container-xxl flex-grow-1 container-p-y">
             <h4 class="pt-3 pb-2">Registration</h4>
             <!-- Striped Rows -->
-            <div class="card">
-              <h5 class="card-header">Engine oil</h5>
+            <!-- <div class="card">
+              <h5 class="card-header">Model</h5>
               <div class="card-body">
                 <form>
                   <div class="mb-3">
-                    <label class="form-label" for="basic-default-fullname">Name</label>
                     <input type="text" class="form-control" id="basic-default-fullname"
-                      placeholder="Enter Engine oil Name" />
-                  </div>
-                  <div class="mb-3">
-                    <label class="form-label" for="price">Price</label>
-                    <input type="text" class="form-control" id="price"
-                      placeholder="Enter Engine oil Price" />
+                      placeholder="Enter Model Name" />
                   </div>
                   <div class="d-flex justify-content-end">
-                    <button type="submit" class="btn btn-primary">Add Engine oil</button>
+                    <button type="submit" class="btn btn-primary">Add Model</button>
                   </div>
                 </form>
               </div>
-            </div>
+            </div> -->
 
 
-            <hr class="my-5" />
+            <!-- <hr class="my-5" /> -->
 
             <!-- Striped Rows -->
             <div class="card px-4 pb-4">
-              <h5 class="card-header px-0">Engine oil Listing</h5>
+              
+              <div class="d-flex justify-content-between align-items-md-center align-items-start flex-md-row flex-column ">
+                <h5 class="card-header px-0 pb-3">Year Combinations</h5>
+                <a href="year-combination-form.html" class="btn btn-primary mb-md-0 mb-3 mt-lg-1">Add Combination</a>
+              </div>
               <div class=" datatable-responsive">
                 <table id="example" class="display" style="width:100%">
                   <thead>
                     <tr>
                       <th>#</th>
-                      <th>Name</th>
-                      <th>Price</th>
+                      <th>Year</th>
+                      <th>Make</th>
                       <th>Actions</th>
                     </tr>
                   </thead>
                   <tbody>
                     <tr>
                       <td>1</td>
-                      <td>ALI RAZA GRAVITY</td>
-                      <td>$665</td>
+                      <td>2001</td>
+                      <td>Make1, Make2, Make3, Make4</td>
                       <td>
                         <div class="d-flex align-items-center">
                           <button type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop"
@@ -320,8 +320,8 @@
                     </tr>
                     <tr>
                       <td>2</td>
-                      <td>ALPHA COLLEGE</td>
-                      <td>$665</td>
+                      <td>2002</td>
+                      <td>Make1, Make2, Make3</td>
                       <td>
                         <div class="d-flex align-items-center">
                           <button type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop"
@@ -332,8 +332,8 @@
                     </tr>
                     <tr>
                       <td>3</td>
-                      <td>ERN</td>
-                      <td>$665</td>
+                      <td>2003</td>
+                      <td>Make1, Make2</td>
                       <td>
                         <div class="d-flex align-items-center">
                           <button type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop"
@@ -344,8 +344,8 @@
                     </tr>
                     <tr>
                       <td>4</td>
-                      <td>ICC</td>
-                      <td>$665</td>
+                      <td>2004</td>
+                      <td>Make1</td>
                       <td>
                         <div class="d-flex align-items-center">
                           <button type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop"
@@ -356,8 +356,8 @@
                     </tr>
                     <tr>
                       <td>5</td>
-                      <td>INDEX</td>
-                      <td>$665</td>
+                      <td>2005</td>
+                      <td>Make1, Make2, Make3, Make4</td>
                       <td>
                         <div class="d-flex align-items-center">
                           <button type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop"
@@ -368,8 +368,8 @@
                     </tr>
                     <tr>
                       <td>6</td>
-                      <td>KASHAN IQBAL</td>
-                      <td>$665</td>
+                      <td>2006</td>
+                      <td>Make1, Make2, Make3, Make4</td>
                       <td>
                         <div class="d-flex align-items-center">
                           <button type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop"
@@ -380,8 +380,8 @@
                     </tr>
                     <tr>
                       <td>7</td>
-                      <td>OMER ALTAF</td>
-                      <td>$665</td>
+                      <td>2007</td>
+                      <td>Make1, Make2, Make3, Make4</td>
                       <td>
                         <div class="d-flex align-items-center">
                           <button type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop"
@@ -392,8 +392,8 @@
                     </tr>
                     <tr>
                       <td>8</td>
-                      <td>RANA</td>
-                      <td>$665</td>
+                      <td>2008</td>
+                      <td>Make1, Make2, Make3, Make4</td>
                       <td>
                         <div class="d-flex align-items-center">
                           <button type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop"
@@ -447,22 +447,89 @@
       <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="staticBackdropLabel">Edit Engine oil </h5>
+            <h5 class="modal-title" id="staticBackdropLabel">Edit Combination </h5>
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
           <form action="">
             <div class="modal-body">
-              <div class="mb-3">
-                <label class="form-label" for="basic-default-fullname">Name</label>
-                <input type="text" class="form-control" id="basic-default-fullname" placeholder="Edit Engine oil Name"
-                  value="" />
-              </div>
-              <div class="mb-3">
-                <label class="form-label" for="edit-price">Price</label>
-                <input type="text" class="form-control" id="edit-price" placeholder="Edit Engine oil Price"
-                  value="" />
-              </div>
+                  <div class="mb-3">
+                    <label for="" class="form-label">Year</label>
+                    <select
+                        class="form-select form-select " name=""   id="">
+                        <option selected>Select Year</option>
+                        <option value="">2001</option>
+                        <option value="">2002</option>
+                        <option value="">2003</option>
+                    </select>
+                  </div>
+                  
+                  <div class="mb-3">
+                    <label for="" class="form-label">Make</label>
+                    <select
+                        class="form-select form-select " name=""   id="">
+                        <option selected>Select Make</option>
+                        <option value="">Make 2</option>
+                        <option value="">Make 2</option>
+                        <option value="">Make 3</option>
+                    </select>
+                  </div>
+
+                  <div class="mb-3 make-div">
+                   <div class="d-flex justify-content-between">
+                    <label for="" class="form-label">Make</label>
+                    <button class=" p-0 border-0 delete-make" style="margin-top: -7px; background-color: transparent;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red" class="bi bi-trash3-fill" viewBox="0 0 16 16">
+                            <path d="M11 1.5v1h3.5a.5.5 0 0 1 0 1h-.538l-.853 10.66A2 2 0 0 1 11.115 16h-6.23a2 2 0 0 1-1.994-1.84L2.038 3.5H1.5a.5.5 0 0 1 0-1H5v-1A1.5 1.5 0 0 1 6.5 0h3A1.5 1.5 0 0 1 11 1.5m-5 0v1h4v-1a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5M4.5 5.029l.5 8.5a.5.5 0 1 0 .998-.06l-.5-8.5a.5.5 0 1 0-.998.06Zm6.53-.528a.5.5 0 0 0-.528.47l-.5 8.5a.5.5 0 0 0 .998.058l.5-8.5a.5.5 0 0 0-.47-.528ZM8 4.5a.5.5 0 0 0-.5.5v8.5a.5.5 0 0 0 1 0V5a.5.5 0 0 0-.5-.5"/>
+                          </svg>
+                    </button>
+                   </div>
+                    <select
+                        class="form-select form-select " name=""   id="">
+                        <option selected>Select Make</option>
+                        <option value="">Make 2</option>
+                        <option value="">Make 2</option>
+                        <option value="">Make 3</option>
+                    </select>
+                  </div>
+
+                  <div class="mb-3 make-div">
+                    <div class="d-flex justify-content-between">
+                     <label for="" class="form-label">Make</label>
+                     <button class=" p-0 border-0 delete-make" style="margin-top: -7px; background-color: transparent;">
+                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red" class="bi bi-trash3-fill" viewBox="0 0 16 16">
+                             <path d="M11 1.5v1h3.5a.5.5 0 0 1 0 1h-.538l-.853 10.66A2 2 0 0 1 11.115 16h-6.23a2 2 0 0 1-1.994-1.84L2.038 3.5H1.5a.5.5 0 0 1 0-1H5v-1A1.5 1.5 0 0 1 6.5 0h3A1.5 1.5 0 0 1 11 1.5m-5 0v1h4v-1a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5M4.5 5.029l.5 8.5a.5.5 0 1 0 .998-.06l-.5-8.5a.5.5 0 1 0-.998.06Zm6.53-.528a.5.5 0 0 0-.528.47l-.5 8.5a.5.5 0 0 0 .998.058l.5-8.5a.5.5 0 0 0-.47-.528ZM8 4.5a.5.5 0 0 0-.5.5v8.5a.5.5 0 0 0 1 0V5a.5.5 0 0 0-.5-.5"/>
+                           </svg>
+                     </button>
+                    </div>
+                     <select
+                         class="form-select form-select " name=""   id="">
+                         <option selected>Select Make</option>
+                         <option value="">Make 2</option>
+                         <option value="">Make 2</option>
+                         <option value="">Make 3</option>
+                     </select>
+                   </div>
+                   
+                   <div class="mb-3 make-div">
+                    <div class="d-flex justify-content-between">
+                     <label for="" class="form-label">Make</label>
+                     <button class=" p-0 border-0 delete-make" style="margin-top: -7px; background-color: transparent;">
+                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red" class="bi bi-trash3-fill" viewBox="0 0 16 16">
+                             <path d="M11 1.5v1h3.5a.5.5 0 0 1 0 1h-.538l-.853 10.66A2 2 0 0 1 11.115 16h-6.23a2 2 0 0 1-1.994-1.84L2.038 3.5H1.5a.5.5 0 0 1 0-1H5v-1A1.5 1.5 0 0 1 6.5 0h3A1.5 1.5 0 0 1 11 1.5m-5 0v1h4v-1a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5M4.5 5.029l.5 8.5a.5.5 0 1 0 .998-.06l-.5-8.5a.5.5 0 1 0-.998.06Zm6.53-.528a.5.5 0 0 0-.528.47l-.5 8.5a.5.5 0 0 0 .998.058l.5-8.5a.5.5 0 0 0-.47-.528ZM8 4.5a.5.5 0 0 0-.5.5v8.5a.5.5 0 0 0 1 0V5a.5.5 0 0 0-.5-.5"/>
+                           </svg>
+                     </button>
+                    </div>
+                     <select
+                         class="form-select form-select " name=""   id="">
+                         <option selected>Select Make</option>
+                         <option value="">Make 2</option>
+                         <option value="">Make 2</option>
+                         <option value="">Make 3</option>
+                     </select>
+                   </div>
+                  
             </div>
+           
             <div class="modal-footer">
               <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
               <button type="button" class="btn btn-primary">Save</button>
@@ -504,6 +571,16 @@
         });
 
       });
+    </script>
+    <script>
+        // jQuery document ready function
+        $(document).ready(function () {
+            // Add click event handler to delete-make button
+            $('.delete-make').on('click', function () {
+                // Find the closest make-div and remove it
+                $(this).closest('.make-div').remove();
+            });
+        });
     </script>
 </body>
 
