@@ -176,7 +176,22 @@
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 4px;
 }
+.datatable-responsive2{
+  width: 100%;
+   overflow-x: auto;
+ }
+.datatable-responsive2 .dataTable tr td{
+ border-right: 1px solid white;
+}
+.datatable-responsive2::-webkit-scrollbar {
+  height: 5px;
+}
+ 
 
+ 
+.datatable-responsive2::-webkit-scrollbar-thumb {
+  background-color: #696cff;
+}
 @media only screen and (max-width:500px)
 {
   .datatable-responsive{
@@ -186,6 +201,8 @@
   .datatable-responsive .dataTable{
     width: 450px !important;
   }
+
+ 
 }
 
 .bg-menu-theme .menu-inner-shadow{
