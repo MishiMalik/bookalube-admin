@@ -151,7 +151,7 @@
                   <div data-i18n="Text Divider">Make Combination</div>
                 </a>
               </li>
-              <li class="menu-item">
+             <li class="menu-item">
                 <a href="model-combination.html" class="menu-link">
                   <div data-i18n="Text Divider">Model Combination</div>
                 </a>
@@ -160,13 +160,14 @@
           </li>
 
           <!--Credit Invoice  -->
-          <li class="menu-item ">
+          <li class="menu-item">
             <a href="dashboard.html" class="menu-link ">
                 <i class="menu-icon tf-icons bx bx-file"></i>
               <div data-i18n="Dashboards">Credit Invoice</div>
             </a>
          
           </li>
+
         </ul>
       </aside>
       <!-- / Menu -->
@@ -282,7 +283,7 @@
               <h5 class="card-header px-0 pb-3">Incoming Services</h5>
               <a href="add-service.html" class="btn btn-primary mb-md-0 mb-3 mt-lg-1">Add Services</a>
             </div>
-            <div class=" datatable-responsive">
+            <div class=" datatable-responsive mt-3">
               <table id="example" class="display" style="width:100%">
                 <thead>
                   <tr>
@@ -406,7 +407,8 @@
       $(document).ready(function () {
         $('#example').DataTable({
           "paging": false,
-          "info": false
+          "info": false,
+          "searching":false
         });
 
       });
