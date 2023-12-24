@@ -192,6 +192,19 @@
 .datatable-responsive2::-webkit-scrollbar-thumb {
   background-color: #696cff;
 }
+.total-text h2{
+   font-size: 18px;
+   font-weight: 600;
+   margin-bottom: 0px;
+   padding-bottom: 0;
+}
+.info-btn{
+  background-color: transparent;
+  border: none;
+}
+.info-btn i{
+  color: #696cff;
+}
 @media only screen and (max-width:500px)
 {
   .datatable-responsive{

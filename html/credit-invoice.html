@@ -33,7 +33,7 @@
   <link rel="stylesheet" href="../assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.css" />
   <link rel="stylesheet" href="https://cdn.datatables.net/1.13.7/css/jquery.dataTables.min.css">
   <!-- Page CSS -->
-
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
   <!-- Helpers -->
   <script src="../assets/vendor/js/helpers.js"></script>
   <!--! Template customizer & Theme config files MUST be included after core stylesheets and helpers.js in the <head> section -->
@@ -273,125 +273,45 @@
           <!-- Content -->
 
           <div class="container-xxl flex-grow-1 container-p-y">
-            <h4 class="pt-3 pb-2">Registration</h4>
-           
+         
 
            <!-- Striped Rows -->
            <div class="card px-4 pb-4 ">
             <div class="d-flex justify-content-between align-items-md-center align-items-start flex-md-row flex-column ">
-              <h5 class="card-header px-0 pb-3">Year Combinations</h5>
-              <a href="year-combination-form.html" class="btn btn-primary mb-md-0 mb-3 mt-lg-1">Add Combination</a>
+              <h5 class="card-header px-0 pb-3">Credit Invoice</h5>
+              <a href="bonus.html" class="btn btn-primary mb-md-0 mb-3 mt-lg-1">Add Bonus</a>
             </div>
             <div class=" datatable-responsive">
               <table id="example" class="display" style="width:100%">
                 <thead>
                   <tr>
                     <th>#</th>
-                    <th>Year</th>
-                    <th>Make</th>
-                    <th>Actions</th>
+                    <th>Email</th>
+                    <th>Service Used</th>
+                    <th>Paid Amount</th>
+                    <th>Last Service Date</th>
+                    <th></th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr>
                     <td>1</td>
-                    <td>2001</td>
-                    <td>Make1, Make2, Make3, Make4</td>
+                    <td>abc@gmail.com</td>
+                    <td>5 Times</td>
                     <td>
-                      <div class="d-flex align-items-center">
-                        <button type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop"
-                          class="edit-data">Edit</button>
-                        <button class="delete-data">Delete</button>
-                      </div>
+                      $345
+                    </td>
+                    <td>
+                        12-5-2023
+                    </td>
+                    <td>
+                        <div class="d-flex justify-content-between align-items-center">
+                           <button type="button" class="info-btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            <i class="bi bi-info-circle-fill"></i>
+                           </button>
+                        </div>
                     </td>
                   </tr>
-                  <tr>
-                    <td>2</td>
-                    <td>2002</td>
-                    <td>Make1, Make2, Make3</td>
-                    <td>
-                      <div class="d-flex align-items-center">
-                        <button type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop"
-                          class="edit-data">Edit</button>
-                        <button class="delete-data">Delete</button>
-                      </div>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>3</td>
-                    <td>2003</td>
-                    <td>Make1, Make2</td>
-                    <td>
-                      <div class="d-flex align-items-center">
-                        <button type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop"
-                          class="edit-data">Edit</button>
-                        <button class="delete-data">Delete</button>
-                      </div>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>4</td>
-                    <td>2004</td>
-                    <td>Make1</td>
-                    <td>
-                      <div class="d-flex align-items-center">
-                        <button type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop"
-                          class="edit-data">Edit</button>
-                        <button class="delete-data">Delete</button>
-                      </div>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>5</td>
-                    <td>2005</td>
-                    <td>Make1, Make2, Make3, Make4</td>
-                    <td>
-                      <div class="d-flex align-items-center">
-                        <button type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop"
-                          class="edit-data">Edit</button>
-                        <button class="delete-data">Delete</button>
-                      </div>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>6</td>
-                    <td>2006</td>
-                    <td>Make1, Make2, Make3, Make4</td>
-                    <td>
-                      <div class="d-flex align-items-center">
-                        <button type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop"
-                          class="edit-data">Edit</button>
-                        <button class="delete-data">Delete</button>
-                      </div>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>7</td>
-                    <td>2007</td>
-                    <td>Make1, Make2, Make3, Make4</td>
-                    <td>
-                      <div class="d-flex align-items-center">
-                        <button type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop"
-                          class="edit-data">Edit</button>
-                        <button class="delete-data">Delete</button>
-                      </div>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>8</td>
-                    <td>2008</td>
-                    <td>Make1, Make2, Make3, Make4</td>
-                    <td>
-                      <div class="d-flex align-items-center">
-                        <button type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop"
-                          class="edit-data">Edit</button>
-                        <button class="delete-data">Delete</button>
-                      </div>
-                    </td>
-                  </tr>
-
-
-
                 </tbody>
 
               </table>
@@ -416,6 +336,23 @@
               </div>
             </footer>
             <!-- / Footer -->
+            <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          ...
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
 
             <div class="content-backdrop fade"></div>
           </div>
