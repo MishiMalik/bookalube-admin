@@ -126,17 +126,8 @@
                   <div data-i18n="Text Divider">Transmission filters</div>
                 </a>
               </li>
-              <li class="menu-item">
-                <a href="incoming-services.html" class="menu-link">
-                  <div data-i18n="Text Divider">Incoming services</div>
-                </a>
-              </li>
-            
-              <li class="menu-item active">
-                <a href="register-customers.html" class="menu-link">
-                  <div data-i18n="Text Divider">Register Customers</div>
-                </a>
-              </li>
+               
+              
               <li class="menu-item">
                 <a href="year-combination.html" class="menu-link">
                   <div data-i18n="Text Divider">Year Combination</div>
@@ -165,6 +156,19 @@
       </a>
          
           </li>
+            <li class="menu-item ">
+            <a href="register-customers.html" class="menu-link">
+              <i class="menu-icon tf-icons bx bx-file"></i>
+              <div data-i18n="Text Divider">Register Customers</div>
+            </a>
+         
+ <li class="menu-item">
+            <a href="incoming-services.html" class="menu-link">
+              <i class="menu-icon tf-icons bx bx-file"></i>
+              <div data-i18n="Text Divider">Incoming services</div>
+            </a>
+          </li>
+        
         </ul>
       </aside>
       <!-- / Menu -->
@@ -307,7 +311,7 @@
                            <button type="button" class="info-btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
                             <i class="bi bi-eye-fill"></i>
                            </button>
-                             <a href="bonus.html" class="btn btn-primary ">Add Bonus</a>
+                             <button  type="button" data-bs-toggle="modal" data-bs-target="#add-bounce" class="btn btn-primary ">Add&nbsp;Bonus</button>
                         </div>
                     </td>
                   </tr>
@@ -326,7 +330,7 @@
                            <button type="button" class="info-btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
                             <i class="bi bi-eye-fill"></i>
                            </button>
-                             <a href="bonus.html" class="btn btn-primary ">Add Bonus</a>
+                               <button  type="button" data-bs-toggle="modal" data-bs-target="#add-bounce" class="btn btn-primary ">Add&nbsp;Bonus</button>
                         </div>
                     </td>
                   </tr>
@@ -345,7 +349,7 @@
                            <button type="button" class="info-btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
                             <i class="bi bi-eye-fill"></i>
                            </button>
-                             <a href="bonus.html" class="btn btn-primary ">Add Bonus</a>
+                               <button  type="button" data-bs-toggle="modal" data-bs-target="#add-bounce" class="btn btn-primary ">Add&nbsp;Bonus</button>
                         </div>
                     </td>
                   </tr>
@@ -364,7 +368,7 @@
                            <button type="button" class="info-btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
                             <i class="bi bi-eye-fill"></i>
                            </button>
-                             <a href="bonus.html" class="btn btn-primary ">Add Bonus</a>
+                               <button  type="button" data-bs-toggle="modal" data-bs-target="#add-bounce" class="btn btn-primary ">Add&nbsp;Bonus</button>
                         </div>
                     </td>
                   </tr>  
@@ -383,7 +387,7 @@
                            <button type="button" class="info-btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
                             <i class="bi bi-eye-fill"></i>
                            </button>
-                             <a href="bonus.html" class="btn btn-primary ">Add Bonus</a>
+                               <button  type="button" data-bs-toggle="modal" data-bs-target="#add-bounce" class="btn btn-primary ">Add&nbsp;Bonus</button>
                         </div>
                     </td>
                   </tr>
@@ -517,6 +521,33 @@
 
             <div class="content-backdrop fade"></div>
           </div>
+                      <!--add-bounce Modal -->
+<div class="modal fade" id="add-bounce" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered info-modal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Add&nbsp;Bonus</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="reciept-box w-100 flex-lg-grow-1 ">
+          <form>
+            <div class="mb-1">
+              <input type="text" class="form-control" id="basic-default-fullname"
+                placeholder="Enter Bonus" />
+            </div>
+            <div class="d-flex justify-content-end mt-3 pt-1">
+              <button type="submit" class="btn btn-primary">Add</button>
+            </div>
+          </form>
+      </div>
+      </div>
+      
+    </div>
+  </div>
+
+          <div class="content-backdrop fade"></div>
+        </div>
           <!-- Content wrapper -->
         </div>
         <!-- / Layout page -->
