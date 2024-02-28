@@ -320,6 +320,17 @@
 .completed{
 background-color: green;
 }
+.chat-box{
+   
+ color: white;
+ padding: 4px 10px;
+ border-radius: 4px;
+ background-color: #696cff;
+ margin-right: 7px;
+ cursor: pointer;
+ text-decoration: none;
+ border: none !important;
+}
 .vehical-status{
  
  color: white;
