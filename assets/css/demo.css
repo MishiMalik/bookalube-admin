@@ -326,6 +326,25 @@ background-color: green;
  .no-show{
   background-color: #df4f5d;
  }
+ 
+.delete-leave{
+  position: absolute;
+  top: 0;
+  right: 12px;
+  background-color: transparent;
+  border: none;
+  color: red;
+}
+
+
+.delete-time{
+  position: absolute;
+  top: 4px;
+  right: 12px;
+  background-color: transparent;
+  border: none;
+  color: red;
+}
 .chat-box{
    
  color: white;
