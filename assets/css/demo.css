@@ -320,6 +320,12 @@
 .completed{
 background-color: green;
 }
+.cancel-b{
+  background-color: rgb(89, 90, 90);
+ }
+ .no-show{
+  background-color: #df4f5d;
+ }
 .chat-box{
    
  color: white;
